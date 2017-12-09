@@ -1,0 +1,48 @@
+.big-button{
+    background: $react-blue;
+    border: none;
+    border-bottom: .6rem solid darken($react-blue,15%);
+    color: #282c34;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $l-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:hover{
+    background: #282c34;
+    color: $react-blue;
+}
+
+@media(max-width:$small-screen){
+    .big-button{
+        margin-bottom: $m-size;
+    }
+}
+
+@media(min-width:$large-screen){
+    .big-button{
+        margin-bottom: $xl-size;
+    }
+}
+
+.big-button:disabled{
+    opacity: 0.5;
+}
+
+.button{
+    background: $react-blue;
+    border: none;
+    border-bottom: .3rem solid darken($react-blue,15%);
+    color: #282c34;
+    font-weight: 600;
+    padding: $s-size;
+}
+
+.button:hover{
+    background: #282c34;
+    color: $react-blue;
+}
+
+
